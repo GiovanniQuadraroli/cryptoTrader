@@ -1,0 +1,25 @@
+{
+  "name": "cryptotrader",
+  "version": "1.0.0",
+  "description": "first example of cryptotrader",
+  "main": "index.js",
+  "scripts": {
+    "prod": "NODE_ENV=production NODE_PATH=src node src/index.js",
+    "start": "NODE_PATH=src node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiovanniQuadraroli/cryptoTrader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiovanniQuadraroli/cryptoTrader/issues"
+  },
+  "homepage": "https://github.com/GiovanniQuadraroli/cryptoTrader#readme",
+  "dependencies": {
+    "forever": "^0.15.3",
+    "mongoose": "^4.11.13"
+  }
+}
