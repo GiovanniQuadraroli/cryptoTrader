@@ -6,6 +6,8 @@ const main = async () => {
     console.log(tmp["PUBLIC_ENDPOINT"])
     const ticker = await pricing.getTicker()
     console.log(ticker)
+    const curr = await pricing.getCurrencies()
+    console.log(curr)
 }
 
 module.exports = {
