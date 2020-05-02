@@ -1,3 +1,3 @@
-const app = require('app')
+const config = require("config.json")
 
-app.start()
+exports.get = key => process.env[key] || config[key]

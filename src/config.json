@@ -1,0 +1,5 @@
+{
+    "POLONIEX" : {
+        "PUBLIC_ENDPOINT": "https://poloniex.com/public"
+    }
+}
